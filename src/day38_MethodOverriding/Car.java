@@ -6,9 +6,9 @@ public class Car {
     public int year;
     public double price;
     public String color;
-    public double miles;
+    public int miles;
 
-    public Car(String brand, String model, int year, double price, String color, double miles) {
+    public Car(String brand, String model, int year, double price, String color, int miles) {
         this.brand = brand;
         this.model = model;
         this.year = year;
@@ -23,6 +23,12 @@ public class Car {
     public void drive(){
         System.out.println(brand+ " "+ model +" is driving");
     }
+    /*
+    public void fly(){
+
+    }
+    It is not common for all the car and parent should only contain common features
+     */
 
 
     public String toString() {
