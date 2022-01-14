@@ -30,4 +30,15 @@ public class Student extends Person{
         setStudentId(studentId);
         setFieldOfStudy(fieldOfStudy);
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name=" + getName()+
+                ", age=" + getAge() +
+                ", gender=" + getGender() +
+                ", studentId=" + studentId +
+                ", fieldOfStudy='" + fieldOfStudy + '\'' +
+                '}';
+    }
 }
