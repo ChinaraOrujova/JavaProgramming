@@ -27,5 +27,19 @@ public class Cydeo {
         developer.work();
         teacher.work();
         tester.work();
-    };
+
+
+        System.out.println("===============================================================");
+
+        tester.eat();
+        tester.drink();
+        teacher.sleep();
+
+        tester.creatTicket();
+
+        System.out.println("==============================================================");
+        student.eat();
+        student.study();
+        student.sleep();
+    }
 }
