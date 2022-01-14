@@ -22,4 +22,17 @@ public class Square extends Shape{
         super("Square");
         setSide(side);
     }
+
+    public double area(){
+        return side*side;
+
+    }
+    public double perimeter(){
+        return side*4;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
