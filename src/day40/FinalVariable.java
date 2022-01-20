@@ -11,7 +11,7 @@ public class FinalVariable {
         this.birthday=birthday;
     }
 
-    public static void main(String[] args) {
+    public final static void main(String[] args) {
 
 
 
